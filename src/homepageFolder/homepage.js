@@ -110,8 +110,8 @@ function Homepage() {
             </div>
 
             <div className="Contact">
-            <button onClick={() => window.open('tel:+2347064901413')}><FaPhone />Contact Us</button>
-            <button onClick={() => window.open('https://wa.me/message/CH3M3TCBQSTNJ1')}><FontAwesomeIcon icon={faWhatsapp} />WhatsApp</button>
+            <button onClick={() => window.open('tel:+2347066216660')}><FaPhone />Contact Us</button>
+            <button onClick={() => window.open('')}><FontAwesomeIcon icon={faWhatsapp} />WhatsApp</button>
             </div>
 
             <div className="Welcome">
@@ -152,8 +152,8 @@ function Homepage() {
             </div>
 
             <div className="Contact">
-                <button onClick={() => window.open('tel:+2347064901413')}><FaPhone />Contact Us</button>
-                <button onClick={() => window.open('https://wa.me/message/CH3M3TCBQSTNJ1')}><FontAwesomeIcon icon={faWhatsapp} />WhatsApp</button>
+                <button onClick={() => window.open('tel:+2347066216660')}><FaPhone />Contact Us</button>
+                <button onClick={() => window.open('')}><FontAwesomeIcon icon={faWhatsapp} />WhatsApp</button>
             </div>
             <br></br>
             <div className="Welcome">
@@ -170,8 +170,8 @@ function Homepage() {
 
             </div>
             <div className="Contact">
-                <button onClick={() => window.open('tel:+2347064901413')}><FaPhone />Contact Us</button>
-                <button onClick={() => window.open('https://wa.me/message/CH3M3TCBQSTNJ1')}><FontAwesomeIcon icon={faWhatsapp} />WhatsApp</button>
+                <button onClick={() => window.open('tel:+2347066216660')}><FaPhone />Contact Us</button>
+                <button onClick={() => window.open('')}><FontAwesomeIcon icon={faWhatsapp} />WhatsApp</button>
             </div>
             <div className="Welcome">
                 <h3 id="logistics" ref={logisticsRef}>Logistics Consultation</h3>
@@ -188,8 +188,8 @@ function Homepage() {
             </div>
             <br></br>
             <div className="Contact">
-                <button onClick={() => window.open('tel:+2347064901413')}><FaPhone />Contact Us</button>
-                <button onClick={() => window.open('https://wa.me/message/CH3M3TCBQSTNJ1')}><FontAwesomeIcon icon={faWhatsapp} />WhatsApp</button>
+                <button onClick={() => window.open('tel:+2347066216660')}><FaPhone />Contact Us</button>
+                <button onClick={() => window.open('')}><FontAwesomeIcon icon={faWhatsapp} />WhatsApp</button>
             </div>
 
  
@@ -217,16 +217,39 @@ function Homepage() {
                
                 <button type="submit">Submit</button>
             </form>
-        
-   
+         
 
-<footer className="footer">
+<footer className='footer'>
+<div className='foot'>
+    <div className='foot1'>
+    <h3>About Us</h3>
+    <p>Licensed Custom Agent <br></br>Clearing, Forwarding and <br></br> Shipping & <br></br>General Marchant Services</p>
+    </div>
+
+    <div className='foot1'>
+    <h3>Services</h3>
+    <p>Licensed Custom Agent <br></br>Clearing, Forwarding and <br></br> Shipping & <br></br>General Marchant Services</p>
+
+    </div>
+
+    <div className='foot1'>
+    <h3>Contact Us</h3>
+    <h6>07066216660 or 07057778770</h6>
+    <p>1 Satellite Car park. <br></br>Opposite Car Park C Gate <br></br>Five Star Terminal TinCan Island Port <br></br>Lagos</p>
+    <h6>Sirjami3l@gmail.com</h6>
+    </div>
+
+    <div className='foot2'>
     <p>ICT: SeeloveTechHub Nig. Ltd <br></br>+2348131264231<br></br>© 2024 <br></br> All Rights Reserved</p>
 
+    </div>
+
+</div>
 </footer>
 
 
-        </div>
+</div>
+
     )
 }
 
