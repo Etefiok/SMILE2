@@ -228,7 +228,7 @@ function Homepage() {
 
     <div className='foot1'>
     <h3>Services</h3>
-    <p>Licensed Custom Agent <br></br>Clearing, Forwarding and <br></br> Shipping & <br></br>General Marchant Services</p>
+    <p>Import Clearance<br></br>Export<br></br>Logistics Consultation<br></br>Wharehousing</p>
 
     </div>
 
