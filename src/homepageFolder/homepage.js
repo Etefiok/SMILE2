@@ -239,28 +239,30 @@ function Homepage() {
             </button>
 
 
-            <button className="block">
+            <button 
+                onClick={ () =>{window.location.href="https://auction.nigeriatradehub.gov.ng/index.php"}} className="block">
                 <div className="blockimage">
-                <img src= {require("../Images.png/seizedCustom.webp")} alt="wharehouse"/>
+                    <img src= {require("../Images.png/seizedCustom.webp")} alt="wharehouse"/>
                 </div>
-            <div className="blockdiv">
-                {/* <h5>Wharehousing: </h5> */}
-            <p> <strong>Just In: </strong>Customs seize contraband worth N232m in Adamawa, Taraba - Daily Post Nigeria
-            </p>
-            </div>
+                    <div className="blockdiv">
+                        {/* <h5>Wharehousing: </h5> */}
+                        <p> <strong>Just In: </strong>Customs seize contraband worth N232m in Adamawa, Taraba - Daily Post Nigeria </p>
+                    </div>
             </button>
+            
 
+            <h6>Hot Links</h6>
 
-
-            <button onClick={ () =>{window.location.href="https://auction.nigeriatradehub.gov.ng/index.php"}}className="block">
-            <div className="blockimage">
-                <img src= {require("../Images.png/auction.jpg")} alt="wharehouse"/>
+            <button 
+                onClick={ () =>{window.location.href="https://auction.nigeriatradehub.gov.ng/index.php"}}className="block">
+                    <div className="blockimage">
+                        <img src= {require("../Images.png/auction.jpg")} alt="wharehouse"/>
+                    </div>
+                <div className="blockdiv">
+                    {/* <h5>Wharehousing: </h5> */}
+                    <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods - Legit.ng</p>
+                    
                 </div>
-            <div className="blockdiv">
-                {/* <h5>Wharehousing: </h5> */}
-            <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods - Legit.ng
-            </p>
-            </div>
             </button>
 
     </div>
