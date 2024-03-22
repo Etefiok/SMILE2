@@ -621,7 +621,7 @@ video {
 
 .Related-Topics {
   background-color: white;
-  max-height: 300px;
+  max-height: 400px;
   border: 1px solid #ddd;
   display:grid;
   overflow-y: auto;
