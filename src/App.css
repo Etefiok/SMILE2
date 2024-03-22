@@ -619,15 +619,21 @@ video {
   text-align: center;
 }
 
+.Related-Topics {
+  background-color: white;
+  max-height: 300px;
+  border: 1px solid #ddd;
+  display:grid;
+  overflow-y: auto;
+}
+
 .Related-Topics h6{
   padding-left: 15px;
   margin-top: 10px;
   text-decoration: underline;
 }
 
-.Related-Topics {
-  background-color: white;
-}
+
 
 .block{
   display: flex;

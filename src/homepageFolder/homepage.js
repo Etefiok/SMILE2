@@ -265,6 +265,32 @@ function Homepage() {
                 </div>
             </button>
 
+
+            <button 
+                onClick={ () =>{window.location.href="https://auction.nigeriatradehub.gov.ng/index.php"}}className="block">
+                    <div className="blockimage">
+                        <img src= {require("../Images.png/auction.jpg")} alt="wharehouse"/>
+                    </div>
+                <div className="blockdiv">
+                    {/* <h5>Wharehousing: </h5> */}
+                    <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods - Legit.ng</p>
+                    
+                </div>
+            </button>
+
+
+            <button 
+                onClick={ () =>{window.location.href="https://auction.nigeriatradehub.gov.ng/index.php"}}className="block">
+                    <div className="blockimage">
+                        <img src= {require("../Images.png/auction.jpg")} alt="wharehouse"/>
+                    </div>
+                <div className="blockdiv">
+                    {/* <h5>Wharehousing: </h5> */}
+                    <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods - Legit.ng</p>
+                    
+                </div>
+            </button>
+
     </div>
 
 
