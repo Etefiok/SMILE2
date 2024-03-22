@@ -234,7 +234,7 @@ function Homepage() {
                 </div>
             <div className="blockdiv">
                 {/* <h5>Wharehousing: </h5> */}
-            <p> <strong>Wharehousing: </strong>Container wharehousing involves storing goods in large containers for easy transportation and handling. <span>These facilities are essential for efficient logistics and supply chain management. They provide a secure and organized storage solution for various industries.</span></p>
+            <p> <strong>Wharehousing: </strong>this involves storing goods in large containers for easy transportation and handling. <span>These facilities are essential for efficient logistics and supply chain management. They provide a secure and organized storage solution for various industries.</span></p>
             </div>
             </button>
 
