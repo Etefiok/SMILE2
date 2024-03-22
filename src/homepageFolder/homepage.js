@@ -10,6 +10,14 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import NavBar from "../NavBarFolder/NavBar";
 
 
+
+
+const imageStyle = {
+    width: '28%', 
+    height: 'auto',
+  };
+
+ 
 function Homepage() {
     const wharehousingRef = React.useRef(null);
     const logisticsRef = React.useRef(null);
@@ -58,7 +66,6 @@ function Homepage() {
 
         
     };
-
 
     return(
         <div className="body">
@@ -217,7 +224,48 @@ function Homepage() {
                
                 <button type="submit">Submit</button>
             </form>
-         
+
+    <div className="Related-Topics">
+        <h6>Related Topics</h6>
+
+            <button className="block">
+            <div className="blockimage">
+                <img src= {require("../Images.png/wharehousing.avif")} alt="wharehouse"/>
+                </div>
+            <div className="blockdiv">
+                {/* <h5>Wharehousing: </h5> */}
+            <p> <strong>Wharehousing: </strong>Container wharehousing involves storing goods in large containers for easy transportation and handling. These facilities are essential for efficient logistics and supply chain management. They provide a secure and organized <span>storage solution for various industries.</span></p>
+            </div>
+            </button>
+
+
+            <button className="block">
+                <div className="blockimage">
+                <img src= {require("../Images.png/seizedCustom.webp")} alt="wharehouse"/>
+                </div>
+            <div className="blockdiv">
+                {/* <h5>Wharehousing: </h5> */}
+            <p> <strong>Just In: </strong>Customs seize contraband worth N232m in Adamawa, Taraba - Daily Post Nigeria
+            </p>
+            </div>
+            </button>
+
+
+
+            <button onClick={ () =>{window.location.href="https://auction.nigeriatradehub.gov.ng/index.php"}}className="block">
+            <div className="blockimage">
+                <img src= {require("../Images.png/auction.jpg")} alt="wharehouse"/>
+                </div>
+            <div className="blockdiv">
+                {/* <h5>Wharehousing: </h5> */}
+            <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods - Legit.ng
+            </p>
+            </div>
+            </button>
+
+    </div>
+
+
 
 <footer className='footer'>
 <div className='foot'>
@@ -252,7 +300,7 @@ function Homepage() {
 
     )
 }
-
+    
 export default Homepage
 
 

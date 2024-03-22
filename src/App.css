@@ -259,8 +259,10 @@ margin-left: 5%;
     border: none;
     /* margin: 0px; */
     margin-top: 55%;
-    margin-left: 10%;
+    margin-left: 15%;
     padding: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 83%;
   
   }
 
@@ -612,6 +614,99 @@ video {
   text-align: center;
 }
 
+.Related-Topics h6{
+  padding-left: 15px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.Related-Topics {
+  background-color: white;
+}
+
+.block{
+  display: flex;
+  width: 97%;
+  height: 200px;
+  margin-left: 30px;
+  border: solid 1px rgb(160, 154, 154);
+  border-radius: 10px;
+  margin: 10px;
+  /* margin-right: 10px; */
+
+  
+}
+
+.blockimage{
+  display:block;
+  background-color: aqua;
+  width: 730px;
+  height: 196px;
+  border-radius: 10px;
+
+}
+
+.blockimage img{
+  
+  width: 100%;
+  height: 196px;
+  border-radius: 10px;
+}
+
+.blockdiv{
+  display: grid;
+  text-align: left;
+  /* background-color: red; */
+  width: 100%;
+  margin: 20px;
+  margin-top: 50px;
+  /* height: 220px; */
+}
+
+@media screen and (max-width: 780px) {
+  .block{
+    display: flex;
+    width: 97%;
+    height: 83px;
+    margin-left: 30px;
+    border: solid 1px rgb(160, 154, 154);
+    border-radius: 10px;
+    margin: 10px;
+    /* margin-right: 10px; */
+  
+    
+  }
+  
+  .blockimage{
+    display:block;
+    /* background-color: aqua; */
+    width: 150px;
+    height: 77px;
+    border-radius: 10px;
+  
+  }
+  
+  .blockimage img{    
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .blockdiv{
+    display: flex;
+    text-align: left;
+    /* background-color: red; */
+    width: 100%;
+    margin: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 10px;
+    /* height: 220px; */
+  }
+
+  .blockdiv span{
+    opacity: 0;
+  }
+}
 
 
 
