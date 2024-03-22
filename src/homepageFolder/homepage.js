@@ -260,7 +260,7 @@ function Homepage() {
                     </div>
                 <div className="blockdiv">
                     {/* <h5>Wharehousing: </h5> */}
-                    <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods - Legit.ng</p>
+                    <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods </p>
                     
                 </div>
             </button>
@@ -273,7 +273,7 @@ function Homepage() {
                     </div>
                 <div className="blockdiv">
                     {/* <h5>Wharehousing: </h5> */}
-                    <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods - Legit.ng</p>
+                    <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods </p>
                     
                 </div>
             </button>
@@ -286,7 +286,7 @@ function Homepage() {
                     </div>
                 <div className="blockdiv">
                     {/* <h5>Wharehousing: </h5> */}
-                    <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods - Legit.ng</p>
+                    <p> <strong>Just In: </strong>Apply Now:" Nigeria Customs Begins Online Auction of Cars, Rice, Other Abandoned, Seized Goods</p>
                     
                 </div>
             </button>
