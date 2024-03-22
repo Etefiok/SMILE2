@@ -196,8 +196,8 @@ margin-left: 5%;
   }
 
   .homepageImageCont{
-    position: relative; /* Set position to relative for z-index to work */
-    z-index: 1; /* Set a lower z-index value for the homepageImageCont */
+    position: relative;
+    z-index: 1; 
   }
 
  }
@@ -227,18 +227,16 @@ margin-left: 5%;
   font-weight: bold;
   font-size: large;
   border: none;
-  width: 16%;
-  
+  width: 16%;  
   /* height: 70px; */
 }
 
 
 .card2 img {
-  /* overflow: hidden; */
-  /* border: solid red; */
-  width: 101.1%; /* Set the width to 100% to fill the container */
-  height: 200px; /* Set a fixed height for all images */
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
+
+  width: 101.1%; 
+  height: 200px; 
+  object-fit: cover; 
 
 }
 
@@ -248,23 +246,13 @@ margin-left: 5%;
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: rgba(186, 241, 241, 0.63);
+    background-color: rgba(186, 241, 241, 0.473);
+    animation:slideRight 1s ease-in-out;
+    width: 100%;
+    
   
   }
 
-  #navbarScroll{
-    position: absolute;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    border: none;
-    /* margin: 0px; */
-    margin-top: 80%;
-    margin-left: 15%;
-    padding: 0px;
-    background-color: rgb(255, 255, 255);
-    width: 83%;
-  
-  }
 
   .card1{
     position:static;
