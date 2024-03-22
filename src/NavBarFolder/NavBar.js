@@ -20,13 +20,13 @@ function NavBar() {
             </div>
 
             <Form className="d-flex">
-              <Form.Control
+            <Button variant="outline-success">Search</Button>
+              <Form.Control 
                 type="search"
-                placeholder="Search"
                 className="me-2"
-                aria-label="Search"
+                // aria-label="Search"                
               />
-              <Button variant="outline-success">Search</Button>
+              
             </Form>
 
             <Nav className='navbarbutton'
