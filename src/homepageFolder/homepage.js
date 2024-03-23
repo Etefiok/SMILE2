@@ -1,5 +1,6 @@
 
 import React from "react";
+import "../NavBarFolder/NavBar.css";
 import Slider from "../SliderFolder/Slider";
 import { useState } from "react";
 import { DetailsData } from "../SliderFolder/Details-data";
@@ -12,13 +13,9 @@ import NavBar from "../NavBarFolder/NavBar";
 
 
 
-const imageStyle = {
-    width: '28%', 
-    height: 'auto',
-  };
-
  
 function Homepage() {
+
     const wharehousingRef = React.useRef(null);
     const logisticsRef = React.useRef(null);
     const importRef = React.useRef(null);
@@ -46,10 +43,9 @@ function Homepage() {
         const newComment = {
             name: formData.name,
             email: formData.email,
-            message: formData.message,
-   
-        
+            message: formData.message,        
         };
+
         const updatedComments = [ newComment, ...comments.slice(0, 9) ]; // Limit to 10 comments
         setComments(updatedComments);
         localStorage.setItem('Name', JSON.stringify(formData.name));
@@ -64,8 +60,11 @@ function Homepage() {
             message: '',
         });
 
-        
     };
+    
+    
+
+    
 
     return(
         <div className="body">
@@ -347,6 +346,9 @@ function Homepage() {
     </div>
 
 </div>
+
+
+
 </footer>
 
 
