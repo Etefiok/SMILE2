@@ -81,26 +81,26 @@ function Homepage() {
 </div>
 </div>
 
-                <div className="card1">
+            <div className="card1">
                 <div className="card2">
-                <img src={require("../Images.png/clearance.jpg")} alt=""/>
-                <button onClick={() => document.getElementById('import').scrollIntoView({ behavior: 'smooth' })}>IMPORT CLEARANCE</button>
+                    <img src={require("../Images.png/clearance.jpg")} alt=""/>
+                    <button onClick={() => document.getElementById('import').scrollIntoView({ behavior: 'smooth' })}>IMPORT CLEARANCE</button>
                 </div>
 
                 <div className="card2">
-                <img src={require("../Images.png/exportpics.avif")}alt=""/>
-                <button onClick={() => document.getElementById('export').scrollIntoView({ behavior: 'smooth' })}>EXPORT</button>
+                    <img src={require("../Images.png/exportpics.avif")}alt=""/>
+                    <button onClick={() => document.getElementById('export').scrollIntoView({ behavior: 'smooth' })}>EXPORT</button>
                 </div>
 
                 <div className="card2">
-                <img src={require("../Images.png/log.jpg")} alt=""/>
-                <button onClick={() => document.getElementById('logistics').scrollIntoView({ behavior: 'smooth' })}>LOGISTICS CONSULTATION</button>
+                    <img src={require("../Images.png/log.jpg")} alt=""/>
+                    <button onClick={() => document.getElementById('logistics').scrollIntoView({ behavior: 'smooth' })}>LOGISTICS CONSULTATION</button>
                 </div>
                 
 
                 <div className="card2">
-                <img src={require("../Images.png/wharehousing.avif")} alt=""/>
-                <button onClick={() => document.getElementById('wharehousing').scrollIntoView({ behavior: 'smooth' })}>WHAREHOUSING</button>
+                    <img src={require("../Images.png/wharehousing.avif")} alt=""/>
+                    <button onClick={() => document.getElementById('wharehousing').scrollIntoView({ behavior: 'smooth' })}>WHAREHOUSING</button>
                 </div>
             </div>
 
